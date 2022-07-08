@@ -1,14 +1,14 @@
-package com.jobs.jobseeker;
+package com.jobs.jobseeker.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class viewjobs_adapter_layout extends AppCompatActivity {
+public class JobDescription extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_viewjobs_adapter_layout);
+        setContentView(R.layout.activity_job_description);
     }
 }
