@@ -3,10 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/custom_button.xml" value="0.235" />
+        <entry key="app/src/main/res/drawable/editbox.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_add_post_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.235" />
+        <entry key="app/src/main/res/layout/activity_job_applicants.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_job_description.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_viewjobs.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_post_job.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_viewjobs.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_viewjobs_adapter_layout.xml" value="0.17325227963525835" />
         <entry key="app/src/main/res/layout/jobs_card_item.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_options.xml" value="0.19" />
       </map>
     </option>
   </component>

@@ -14,10 +14,19 @@
         android:theme="@style/Theme.JobSeeker"
         tools:targetApi="31">
         <activity
-            android:name=".viewjobs_adapter_layout"
+            android:name=".Apply_jobs"
             android:exported="false" />
         <activity
-            android:name=".UI.viewjobs"
+            android:name=".UI.JobApplicants"
+            android:exported="false" />
+        <activity
+            android:name=".UI.PostJob"
+            android:exported="false" />
+        <activity
+            android:name=".UI.JobDescription"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Viewjobs"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
