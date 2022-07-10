@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.jobs.jobseeker.R;
+
 public class JobApplicants extends AppCompatActivity {
 
     @Override
