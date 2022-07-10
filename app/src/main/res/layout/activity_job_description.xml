@@ -6,4 +6,105 @@
     android:layout_height="match_parent"
     tools:context=".UI.JobDescription">
 
+    <ImageView
+        android:id="@+id/jdBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back_24"
+        android:layout_marginTop="28dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="25dp"/>
+
+
+    <TextView
+        android:id="@+id/jdHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Job Detail"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jdBack"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="55dp"/>
+
+    <TextView
+        android:id="@+id/companyNameJD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safaricom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jdHeader"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/roleNameJD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UI DESIGN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/companyNameJD"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/JD_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roleNameJD"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/Jd_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor. Mauris pretium quam et urna. Fusce nibh. Duis risus. Curabitur sagittis hendrerit ante. Aliquam erat volutpat. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Duis condimentum augue id"
+        app:layout_constraintTop_toBottomOf="@+id/JD_Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/JD_Skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jd_Description"
+        android:layout_marginTop="25dp"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extended_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription=""
+        android:gravity="center_horizontal"
+        android:text="Apply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:contentDescription=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_message_24"
+        android:layout_marginBottom="50dp"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
