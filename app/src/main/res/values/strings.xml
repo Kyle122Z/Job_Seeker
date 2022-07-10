@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Job Seeker</string>
+    <string name="category">category</string>
+
 </resources>
